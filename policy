@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy – WiFi Sentry</title>
+<style>
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6;margin:24px;max-width:860px}
+  h1{font-size:28px;margin:0 0 8px} h2{margin-top:24px}
+  .muted{color:#475569}
+</style>
+<body>
+<h1>Privacy Policy</h1>
+<div class="muted">Last updated: August 11, 2025</div>
+
+<h2>Overview</h2>
+<p>WiFi Sentry displays technical information about the Wi-Fi network you are connected to and nearby networks to help you assess basic network security. We respect your privacy and designed the app to process data locally on your device wherever possible.</p>
+
+<h2>Information We Collect &amp; Process</h2>
+<ul>
+  <li>Connected network details: SSID (network name), BSSID (access point MAC address), frequency, channel, RSSI, link speed.</li>
+  <li>Device network details: local IP address, DHCP gateway and DNS provided by your router.</li>
+  <li>Nearby Wi-Fi scan results: SSID, BSSID, frequency/band, signal level.</li>
+</ul>
+
+<h2>How We Use This Information</h2>
+<ul>
+  <li>To show you current and nearby network information in the app UI.</li>
+  <li>To provide heuristics for detecting potential risks (e.g., duplicate SSIDs, suspicious BSSIDs).</li>
+  <li>To look up the manufacturer (vendor) of an access point by OUI (MAC prefix).</li>
+</ul>
+
+<h2>Third-Party Services</h2>
+<p>If the local OUI database does not recognize a BSSID, the app may query the public API at <code>api.macvendors.com</code> to resolve the manufacturer of the access point. This request contains the BSSID (MAC address) of the access point you are scanning. No other personal information is sent.</p>
+
+<h2>Data Storage &amp; Retention</h2>
+<ul>
+  <li>All displayed network information is processed on your device.</li>
+  <li>The app may store a list of <em>known networks</em> (BSSID, SSID, band, resolved manufacturer, and gateway IP) locally to improve detections.</li>
+  <li>No data is uploaded to our servers; we do not operate a backend for this app.</li>
+</ul>
+
+<h2>Data Sharing &amp; Sale</h2>
+<p>We do not sell your data. We do not share your data with third parties.</p>
+
+<h2>Permissions</h2>
+<ul>
+  <li><strong>Approximate/Precise Location:</strong> required by Android to perform Wi-Fi scans and obtain SSID/BSSID. We do not store or track your location.</li>
+  <li><strong>Wi-Fi state / network access:</strong> required to read Wi-Fi information.</li>
+</ul>
+
+<h2>Security</h2>
+<p>We take reasonable measures to protect data processed on your device. Because the app performs processing locally, the primary risk is access to your device. Use a device passcode and keep your OS updated.</p>
+
+<h2>Children’s Privacy</h2>
+<p>This app is intended for general audiences and is not directed to children under 13.</p>
+
+<h2>Your Choices</h2>
+<ul>
+  <li>You can clear saved networks from within the app.</li>
+  <li>You can deny location permission, but Wi-Fi scanning features will be limited by Android.</li>
+  <li>You can disable Internet access to prevent manufacturer lookups via the external API.</li>
+  <li>Uninstalling the app removes all locally stored data.</li>
+</ul>
+
+<h2>Contact</h2>
+<p>If you have questions about this policy or the app, contact us at: <strong>you@example.com</strong>.</p>
+</body>
+</html>
